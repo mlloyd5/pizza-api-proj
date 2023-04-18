@@ -11,7 +11,6 @@ CREATE TABLE toppings (
 CREATE TABLE user_toppings (
     user_id INT NOT NULL,
     topping_id INT NOT NULL,
-    count INT,
     PRIMARY KEY (user_id, topping_id),
     FOREIGN KEY (user_id)
        REFERENCES users (user_id),
