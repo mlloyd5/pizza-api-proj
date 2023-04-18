@@ -1,6 +1,6 @@
 CREATE TABLE users (
     user_id serial PRIMARY KEY,
-    username VARCHAR ( 128 ) UNIQUE NOT NULL)
+    username VARCHAR ( 128 ) UNIQUE NOT NULL
 );
 
 CREATE TABLE toppings (
